@@ -38,3 +38,17 @@ def swap_elements(array)
     return kesha_array
   end
   
+
+def find_a(array)
+  array.select do |string|
+    string.start_with?("a")
+  end
+end
+
+def sum_array(array)
+  sum = 0
+  array.map do |a|
+    sum += a
+  
+  return sum
+end
