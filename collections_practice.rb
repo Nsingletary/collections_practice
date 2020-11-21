@@ -17,3 +17,24 @@ def sort_array_asc(array)
       end
     end  
 end 
+
+def swap_elements(array)
+    temp = array[1]
+    array[1] = array[2]
+    array[2] = temp
+    return array
+  end
+  
+  def reverse_array(array)
+    array.reverse
+  end
+  
+  def kesha_maker(array)
+    kesha_array = []
+    array.each do |string|
+      string[2] = "$"
+      kesha_array << string
+    end
+    return kesha_array
+  end
+  
